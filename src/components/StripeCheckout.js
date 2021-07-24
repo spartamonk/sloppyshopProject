@@ -100,7 +100,7 @@ const CheckoutForm = () => {
       ) : (
         <article>
           <h4>Hello, {myUser && myUser.name}</h4>
-          <p>your total is {formatPrice(shipping_fee + total_amount)}</p>
+          <p>Your total is {formatPrice(shipping_fee + total_amount)}</p>
           <p>Test Card Number : 4000 0082 6000 0000</p>
         </article>
       )}
